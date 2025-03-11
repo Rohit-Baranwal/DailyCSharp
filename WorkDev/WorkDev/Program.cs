@@ -67,6 +67,23 @@ namespace WorkDev
             //Console.WriteLine(p6.CountOfSubstrings(word, k3) + Environment.NewLine);
             #endregion
 
+            #region Number of Substrings Containing All Three Characters
+
+            //Program7 pr7 = new Program7();
+            //string input = "abcabc";
+            //Console.WriteLine(pr7.NumberOfSubstrings(input));
+
+            #endregion
+
+            #region Partition Array According to Given Pivot
+
+            Program8 pr8 = new Program8();
+            int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
+            int pivot = 10;
+            int[] result = pr8.PivotArray(nums, pivot);
+            Console.WriteLine(string.Join(", ", result));
+
+            #endregion
 
             Console.Read();
         }
