@@ -77,11 +77,19 @@ namespace WorkDev
 
             #region Partition Array According to Given Pivot
 
-            Program8 pr8 = new Program8();
-            int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
-            int pivot = 10;
-            int[] result = pr8.PivotArray(nums, pivot);
-            Console.WriteLine(string.Join(", ", result));
+            //Program8 pr8 = new Program8();
+            //int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
+            //int pivot = 10;
+            //int[] result = pr8.PivotArray(nums, pivot);
+            //Console.WriteLine(string.Join(", ", result));
+
+            #endregion
+
+            #region Maximum Count of Positive Integer and Negative Integer
+
+            Program9 pr9 = new Program9();
+            int[] nums = { -2, -1, -1, 1, 2, 3 };
+            Console.WriteLine(pr9.MaximumCount(nums));
 
             #endregion
 
