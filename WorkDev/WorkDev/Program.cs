@@ -87,9 +87,19 @@ namespace WorkDev
 
             #region Maximum Count of Positive Integer and Negative Integer
 
-            Program9 pr9 = new Program9();
-            int[] nums = { -2, -1, -1, 1, 2, 3 };
-            Console.WriteLine(pr9.MaximumCount(nums));
+            //Program9 pr9 = new Program9();
+            //int[] nums = { -2, -1, -1, 1, 2, 3 };
+            //Console.WriteLine(pr9.MaximumCount(nums));
+
+            #endregion
+
+            #region Zero Array Transformation II
+
+            Program10 pr10 = new Program10();
+            int[] nums = {2,0,2};
+            int[][] queries = { new int[] { 0, 2, 1 }, new int[]{ 0, 2, 1 }, new int[]{ 1, 1, 3 } };
+            Console.WriteLine(pr10.MinZeroArray(nums, queries));
+
 
             #endregion
 
