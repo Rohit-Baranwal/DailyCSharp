@@ -95,11 +95,19 @@ namespace WorkDev
 
             #region Zero Array Transformation II
 
-            Program10 pr10 = new Program10();
-            int[] nums = {2,0,2};
-            int[][] queries = { new int[] { 0, 2, 1 }, new int[]{ 0, 2, 1 }, new int[]{ 1, 1, 3 } };
-            Console.WriteLine(pr10.MinZeroArray(nums, queries));
+            //Program10 pr10 = new Program10();
+            //int[] nums = {2,0,2};
+            //int[][] queries = { new int[] { 0, 2, 1 }, new int[]{ 0, 2, 1 }, new int[]{ 1, 1, 3 } };
+            //Console.WriteLine(pr10.MinZeroArray(nums, queries));
 
+            #endregion
+
+            #region Maximum Candies Allocated to K Children
+
+            Program11 pr11 = new Program11();
+            int[] candies = {5,8,6};
+            int k = 3;
+            Console.WriteLine(pr11.MaximumCandies(candies, k));
 
             #endregion
 
