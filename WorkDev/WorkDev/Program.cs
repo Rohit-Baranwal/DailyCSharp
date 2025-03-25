@@ -104,12 +104,21 @@ namespace WorkDev
 
             #region Maximum Candies Allocated to K Children
 
-            Program11 pr11 = new Program11();
-            int[] candies = {5,8,6};
-            int k = 3;
-            Console.WriteLine(pr11.MaximumCandies(candies, k));
+            //Program11 pr11 = new Program11();
+            //int[] candies = {5,8,6};
+            //int k = 3;
+            //Console.WriteLine(pr11.MaximumCandies(candies, k));
 
             #endregion
+
+            #region Longest Palindromic Substring
+
+            Program12 pr12 = new Program12();
+            string s = "babad";
+            Console.WriteLine(pr12.LongestPalindrome(s));
+
+            #endregion
+
 
             Console.Read();
         }
