@@ -113,12 +113,18 @@ namespace WorkDev
 
             #region Longest Palindromic Substring
 
-            Program12 pr12 = new Program12();
-            string s = "babad";
-            Console.WriteLine(pr12.LongestPalindrome(s));
+            //Program12 pr12 = new Program12();
+            //string s = "babad";
+            //Console.WriteLine(pr12.LongestPalindrome(s));
 
             #endregion
 
+            #region Reverse the string
+
+            Program13 pr13 = new Program13();
+            Console.WriteLine(pr13.reverseTheString("abcd"));
+
+            #endregion
 
             Console.Read();
         }
